@@ -1,3 +1,6 @@
 [submodule "icarus"]
+	path = icarus
+	url = https://github.com/jungguji/icarus.git
+[submodule "themes/icarus"]
 	path = themes/icarus
 	url = https://github.com/jungguji/icarus.git
