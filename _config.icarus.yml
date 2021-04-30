@@ -154,6 +154,10 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: utterances
+    repo: jungguji/jungguji.github.io
+    issue-term: title
+    theme: github-light
+    crossorigin: anonymous
     # Disqus shortname
     shortname: ''
 # Donate plugin configurations

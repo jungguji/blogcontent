@@ -76,7 +76,7 @@ public static void main(String[] args) throws IOException {
 
 ## 흐름
 
-- 우선 이 문제는 domJudge와 kattis가 순서대로 n만큼씩 입력 받는 문제다
+- 우선 이 문제는 domJudge와 kattis가 순서대로 n만큼씩 입력 받는 문제다.
 
 예제를 보며 얘기하면
 
