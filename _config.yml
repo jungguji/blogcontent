@@ -55,7 +55,7 @@ include: null
 exclude: null
 ignore: null
 plugins: '-hexo-math'
-theme: icarus
+theme: tranquilpeak
 deploy:
   type: git
   repo: 'https://github.com/jungguji/junggu.github.io.git'
