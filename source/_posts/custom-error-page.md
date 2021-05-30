@@ -7,12 +7,14 @@ tags:
     - thymeleaf
 ---
 # 서론
+
 기본적으로 was나 spring boot에서 error page를 제공해 주고 있으나
 
 보기 이쁘지도 않을뿐더러 stacktrace 가 그대로 노출되기 때문에 보안상으로도 좋을 것이 없다.
 
 * * *
 # 본론
+
 하여 보통 에러 페이지를 따로 개발하여 보여주게 되는데 thymeleaf과 spring boot을 사용할 경우
 
 [https://www.thymeleaf.org/doc/articles/springsecurity.html](https://www.thymeleaf.org/doc/articles/springsecurity.html)
@@ -24,6 +26,7 @@ tags:
 나는 에러 유형에 따라 이미지 파일을 보여주도록 custom error page 기능을 아래 처럼 적용했다.
 
 ## Controller
+
 ```java
 @Controller
 public class CustomErrorController implements ErrorController {
@@ -53,6 +56,7 @@ public class CustomErrorController implements ErrorController {
 ```
 
 ## View
+
 ```html
 
 <!DOCTYPE html>
@@ -69,9 +73,11 @@ public class CustomErrorController implements ErrorController {
 ```
 
 ### thymeleaf를 사용하지 않는 경우
+
 thymeleaf를 사용하지 않을 경우엔 resource 폴더 하위에 static 폴더에 error 페이지를 만들어놓고 CustomController를 아래처럼 [IllegalStateException](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalStateException.html) 을 throw 하기만 하면 된다.
 
 ## Controller
+
 ```java
 
 public class CustomErrorController implements ErrorController {
@@ -90,9 +96,12 @@ public class CustomErrorController implements ErrorController {
     }
 }
 ```
+
 * * *
 # 결론
+
 ## 적용 결과
+
 ![결과](/images/error-page/error.PNG)
 
 나는 [https://http.cat/](https://http.cat/) 라는 http status code마다 위처럼 고양이 사진을 보여주는 사이트에서 이미지 파일을 가져와 적용하였다.
@@ -103,6 +112,7 @@ public class CustomErrorController implements ErrorController {
 
 * * *
 # 참고 사이트
+
 - https://docs.spring.io/autorepo/docs/spring-boot/current/reference/htmlsingle/#boot-features-error-handling-custom-error-pages
 
 - https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc

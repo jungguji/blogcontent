@@ -14,8 +14,6 @@ The deployment failed because no instances were found for your deployment group.
 Check your deployment group settings to make sure the tags for your Amazon EC2 instances or Auto Scaling groups correctly identify the instances you want to deploy to, and then try again.
 ```
 
- 
-
 ![CodeDeploy](/images/20200608/codedeploy_인스턴스_설정.png)
 
 배포 그룹에서 태그 그룹으로 인스턴스를 지정할 때 위 사진처럼 일치하는 인스턴스가 존재한다는 문구가 나타나는 걸 확인해야한다.
@@ -36,6 +34,4 @@ shell script에서 작성한 echo도 아래 파일에서 함께 확인 할 수 �
 vim /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
 ```
 
- 
- 
 ![CodeDeploy Log File](/images/20200608/codedeploy_logfile.PNG)
