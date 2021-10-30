@@ -13,13 +13,13 @@ tags:
 
 ### 발생한 에러
 
-{% asset_img 에러.png Command line is too long. Shorten command line for.. 해결 %}
+{% asset_img 에러.JPG Command line is too long. Shorten command line for.. 해결 %}
 
 * * *
 
 ## 해결
 
-{% asset_img workspace.png Command line is too long. Shorten command line for.. 해결 %}
+{% asset_img workspace.JPG Command line is too long. Shorten command line for.. 해결 %}
 
 위 이미지처럼 프로젝트 루트에 존재하는 .idea 폴더에 workspace.xml 파일을 열어서
 

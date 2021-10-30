@@ -36,11 +36,9 @@ H2 데이터베이스는 인메모리 관계형 데이터베이스로 메모리 
 
 그 후 Test 환경에서 사용하는 appication.properties에서 데이터베이스 설정을 H2로 설정해준다.
 
-<br />
+### application-test.properties 위치
 
-![application-test](/images/20200705/application-test.PNG)
-
-<br />
+{% asset_img 위치.JPG H2 DB를 이용한 Repository Test %}
 
 ### application-test.properties 내용
 
@@ -108,7 +106,7 @@ void setUp() {
 
 ## 프로젝트 전체 코드
 
-- [https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/howto-database-initialization.html](https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/howto-database-initialization.html)
+- [https://github.com/jungguji/wordbook](https://github.com/jungguji/wordbook)
 
 * * *
 
