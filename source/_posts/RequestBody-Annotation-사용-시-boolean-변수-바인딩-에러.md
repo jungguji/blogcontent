@@ -47,7 +47,7 @@ public void dto_boolean_test() throws Exception {
 ### 에러 결과
 
 {% asset_img test실패.PNG RequestBody Annotation 사용 시 boolean 변수 바인딩 에러 %}
-* * * 
+* * *
 
 ## 원인
 
