@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "158620a4849e19ec",
+        "id": "03be71d4b480c354",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "source/_posts/Nexus를-이용한-모듈화.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,13 +73,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/Nexus를-이용한-모듈화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/Nexus를-이용한-모듈화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "source/_posts/Nexus를-이용한-모듈화.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -129,5 +121,7 @@
     "collapsed": true
   },
   "active": "17e6efacfb215014",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "source/_posts/Nexus를-이용한-모듈화.md"
+  ]
 }
