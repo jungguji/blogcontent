@@ -761,21 +761,16 @@ class EventEligibilityCheckerV2Test {
 
 앞서 설명한 설계와 테스트 코드 개선에 더해 Fixture Monkey와 같은 도구를 활용하면 다음과 같은 이점을 얻을 수 있습니다.
 
-## 1. 테스트 데이터 자동 생성
-
-- Fixture Monkey는 복잡한 객체 구조에 대해 필요한 데이터를 자동으로 생성합니다. 이를 통해 테스트를 작성할 때 불필요한 데이터 생성 로직을 줄이고 테스트 로직에 집중할 수 있습니다.
+1. **테스트 데이터 자동 생성**
+   - Fixture Monkey는 복잡한 객체 구조에 대해 필요한 데이터를 자동으로 생성합니다. 이를 통해 테스트를 작성할 때 불필요한 데이터 생성 로직을 줄이고 테스트 로직에 집중할 수 있습니다.
   
-## 2. 객체의 불변성과 유연성 유지
+2. **객체의 불변성과 유연성 유지**
+   - 기존 객체를 수정하거나 Setter를 추가하지 않아도 Fixture Monkey를 통해 객체를 유연하게 생성 및 수정할 수 있습니다. 특히, 불변 객체(immutable object)나 생성자가 많은 객체를 쉽게 테스트할 수 있습니다.
 
-- 기존 객체를 수정하거나 Setter를 추가하지 않아도 Fixture Monkey를 통해 객체를 유연하게 생성 및 수정할 수 있습니다. 특히, 불변 객체(immutable object)나 생성자가 많은 객체를 쉽게 테스트할 수 있습니다.
-
-## 3. 데이터 커스터마이징
-
-- 특정 필드에 대한 값을 명시적으로 설정하거나 조건에 맞는 객체를 생성할 수 있습니다. 예를 들어, VIP 멤버 ID 목록처럼 특정 조건을 가진 데이터를 간단하게 생성할 수 있습니다.
-
-## 4. 테스트 유지보수 비용 절감
-
-- 새로운 필드가 추가되거나 객체 구조가 변경되어도 Fixture Monkey를 사용하면 테스트 코드 수정 범위를 최소화할 수 있습니다.
+3. **데이터 커스터마이징**
+   - 특정 필드에 대한 값을 명시적으로 설정하거나 조건에 맞는 객체를 생성할 수 있습니다. 예를 들어, VIP 멤버 ID 목록처럼 특정 조건을 가진 데이터를 간단하게 생성할 수 있습니다.
+4. **테스트 유지보수 비용 절감**
+   - 새로운 필드가 추가되거나 객체 구조가 변경되어도 Fixture Monkey를 사용하면 테스트 코드 수정 범위를 최소화할 수 있습니다.
 
 <br />
 
@@ -799,3 +794,8 @@ class EventEligibilityCheckerV2Test {
 - [무엇을 테스트할 것인가? 어떻게 테스트할 것인가? (권용근)](https://youtu.be/YdtknE_yPk4?si=d8KPekxKZrsj_Rpk)
 - [실무에서 적용하는 테스트 코드 작성 방법과 노하우 (김남윤)](https://www.youtube.com/watch?v=XSkz0kO7J3w)
 - [왜 나는 테스트를 작성하기 싫을까? (조성아)](https://www.youtube.com/watch?v=pCE7ibRCZEI)
+
+---
+
+### 전체 코드
+- [https://github.com/jungguji/fixture-monkey-sample](https://github.com/jungguji/fixture-monkey-sample)
