@@ -611,4 +611,4 @@ Redisson의 `tryLock()`은 분산 환경에서 동시성 제어를 효과적으�
 
 `tryLock()`은 동시성 제어에서 효율성과 안정성을 동시에 추구하는 설계로, 분산 환경에서의 락 처리 문제를 효과적으로 해결한다. 그러나 복잡한 로직 구조와 Pub/Sub 시스템의 특성을 고려하여 사용 환경에 적합한 설정을 적용하고, 잠재적인 한계를 관리할 수 있는 보완책을 함께 설계해야 한다.
 
-이 포스팅이 `tryLock()` 내부 로직에 대한 깊은 이해를 돕고, 동시성 제어가 필요한 시스템 설계 시 참고 자료가 되길 바라며, 실제적으로 Redisson을 활용하여 분산락을 적용하고자 하는 사용자는 이전 포스팅 [동시성 이슈와 Redis( Redisson )를 이용한 해결방법](https://jungguji.github.io/2024/12/24/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88%EC%99%80-Redis-Redisson-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/)을 참고하길 바란다.
+본 글이 `tryLock()` 내부 로직에 대한 깊은 이해를 돕고, 동시성 제어가 필요한 시스템 설계 시 참고 자료가 되길 바라며, 실제적으로 Redisson을 활용하여 분산락을 적용하고자 하는 사용자는 이전 글 [동시성 이슈와 Redis( Redisson )를 이용한 해결방법](https://jungguji.github.io/2024/12/24/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88%EC%99%80-Redis-Redisson-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95/)을 참고하길 바란다.
