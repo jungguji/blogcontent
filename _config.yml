@@ -6,7 +6,7 @@ author: Junggu Ji
 language: ko
 timezone: Asia/Seoul
 url: 'https://jungguji.github.io'
-permalink: ':year/:month/:day/:title/'
+permalink: ':year/:month/:day/:slug/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -79,3 +79,10 @@ robotstxt:
   allow:
     - /
   sitemap: 'https://jungguji.github.io/sitemap.xml'
+
+# mermaid chart
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true  # default true
+  version: "7.1.2" # default v7.1.2
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    #startOnload: true  // default true

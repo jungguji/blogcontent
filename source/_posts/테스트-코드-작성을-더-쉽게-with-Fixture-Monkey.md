@@ -2,6 +2,7 @@
 layout: posts
 title: 테스트 코드 작성을 더 쉽게 (with. Fixture Monkey)
 date: 2024-11-19 23:16:40
+slug: writing-test-code-easier-with-fixture-monkey
 tags:
     - test
 ---

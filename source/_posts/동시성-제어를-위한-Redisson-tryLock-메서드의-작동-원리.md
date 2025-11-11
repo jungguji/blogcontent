@@ -2,6 +2,7 @@
 title: 동시성 제어를 위한 Redisson tryLock 메서드의 작동 원리
 date: 2025-01-09 12:42:28
 description: Redisson의 tryLock 메서드와 Redis를 활용한 분산 락 구현 및 동시성 문제 해결 방법에 대해 다룹니다.
+slug: solving-concurrency-issues-with-redis-and-redisson
 keywords:
   - Redisson tryLock 사용법
   - Redis를 활용한 동시성 제어

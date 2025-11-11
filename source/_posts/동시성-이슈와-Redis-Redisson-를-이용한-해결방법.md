@@ -1,10 +1,12 @@
 ---
 title: 동시성 이슈와 Redis( Redisson )를 이용한 해결방법
+slug: how-redisson-trylock-works-for-concurrency-control
 date: 2024-12-24 12:26:46
 tags:
     - redisson
     - redis
     - 동시성
+
 ---
 
 ## 도입
